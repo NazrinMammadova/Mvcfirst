@@ -1,0 +1,13 @@
+﻿
+@model List<Group>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach (var group in Model)
+{
+   
+    <p>Id: @group.Id Name:@group.Name Size: @group.Size</p>
+
+}
+
